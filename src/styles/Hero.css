@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background-color: #495E57;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.hero-content {
+  max-width: 35%;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #F4CE14;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero-content .place {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Markazi Text';
+  font-weight: bold;
+  color: black;
+  background-color: #F4CE14;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+}

@@ -1,0 +1,65 @@
+/* src/styles/About.css */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: #f8eae7;
+}
+
+.about-text {
+    padding-left: 10%;
+    max-width: 30%;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about-text .place {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.about-images {
+    position: relative;
+    max-width: 400px;
+    height: 400px;
+    padding-right: 30%;
+    /* Adjust height to ensure both images fit */
+}
+
+.about-images img {
+    width: 300px;
+    /* Fixed width for both images */
+    height: 200px;
+    /* Fixed height for both images */
+    border-radius: 10px;
+    object-fit: cover;
+    padding-right: 20%;
+}
+
+.about-images .image1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    /* padding-right: 10%; */
+}
+
+.about-images .image2 {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

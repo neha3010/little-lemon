@@ -1,29 +1,22 @@
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Specials from './components/Specials';
+import Testimonials from './components/Testimonials';
+import About from './components/About';
+import Footer from './components/Footer';
 import './App.css';
-import Header from './Header.js';
-import Nav from './Nav.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
 
 function App() {
   return (
-    <>
-      <Header>
-        <h1>Homepage</h1>
-      </Header>
-      <Nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Contact</a></li>
-        </ul>
-      </Nav>
-      <Main>
-        <p> Welcome to the homepage. Here is some main content.</p>
-      </Main>
-      <Footer>
-        <p>&cpoy; 2024 Little Lemon</p>
-      </Footer>
-    </>
+    <div className="App">
+      <Header />
+      <Hero />
+      <Specials />
+      <Testimonials />
+      <About />
+      <Footer />
+    </div>
   );
 }
 

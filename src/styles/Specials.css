@@ -1,0 +1,111 @@
+.specials {
+  padding: 40px 60px;
+  background-color: #fff;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.specials h2 {
+  font-size: 60px;
+  font-family: 'Markazi Text';
+    font-weight: bold;
+  /* text-align: center;
+  margin-bottom: 30px; */
+}
+
+.specials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-item {
+  text-align: left;
+  max-width: 30%;
+  width: 300px;
+  height: 500px;
+  font-family: 'Markazi Text';
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 10px; */
+  box-sizing: border-box;
+}
+
+.special-item:hover {
+  transform: translateY(-5px);
+}
+
+.special-item img {
+  max-width: 100%;
+  /* height: auto; */
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+.special-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special-item h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #000;
+  padding-left: 20px;
+}
+
+.special-item .price {
+  font-size: 20px;
+  color: #D2534B;
+  font-weight: bold;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.special-item .foodDescription {
+  font-size: 16px;
+  margin: 5px 10px;
+  color: #555;
+  padding-left: 20px;
+}
+
+.special-item .order-delivery {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.specials-header button {
+  padding: 10px 20px;
+    font-size: 36px;
+    color: black;
+    font-family: 'Markazi Text';
+    font-weight: bold;
+    background-color: #F4CE14;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.specials-header button:hover {
+  background-color: #F4CE14;
+}
