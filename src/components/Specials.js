@@ -32,7 +32,7 @@ const Specials = () => {
         <h2>This week's Specials</h2>
         <button>Online Menu</button>
       </div>
-      
+
       <div className="specials-list">
         {specials.map((special, index) => (
           <div key={index} className="special-item">
@@ -41,13 +41,13 @@ const Specials = () => {
               <h3>{special.title}</h3>
               <p className="price">{special.price}</p>
               </div>
-            
+
             <p className="foodDescription">{special.description}</p>
             <p className="order-delivery">Order for delivery</p>
           </div>
         ))}
       </div>
-      
+
     </section>
   );
 }

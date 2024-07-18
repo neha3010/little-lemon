@@ -22,3 +22,18 @@ nav ul li {
   font-size: 18px;
   cursor: pointer;
 }
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+}
