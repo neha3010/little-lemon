@@ -6,8 +6,10 @@
 }
 
 .booking-form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+    /* flex-direction: column; */
 }
 
 .booking-form label {
